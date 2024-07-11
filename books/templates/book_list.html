@@ -8,11 +8,12 @@
 <h1>ALL BOOKS</h1>
 {% for book in book_list %}
     <ul>
-        <li>title : {{ book.title }}</li>
-        <li>Subtitle : {{  }}</li>
-        <li></li>
-        <li></li>
+       <h2> <li>Title : {{ book.title }}</li> </h2>
+        <li>Subtitle : {{ book.subtitle }}</li>
+        <li>Author : {{ book.author }}</li>
+        <li>Originally Published : {{ book.published }}</li>
     </ul>
+    <hr>
 {% endfor %}
 
 
